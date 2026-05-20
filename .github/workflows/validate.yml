@@ -1,0 +1,25 @@
+name: Validate Agent-deploy
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  validate-release-contracts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Validate CreativeWork release contract
+        run: python scripts/validate_release_contract.py
