@@ -1,0 +1,61 @@
+release:
+  name: creativework
+  artifact_type: schema:CreativeWork
+  description: Release contract for publishing AGenNext CreativeWork artifacts such as prompts, skills, API docs, blogs, READMEs, policies, protocols, tutorials, and specs.
+
+  source:
+    draft_state: draft
+    accepted_state: released
+
+  required_fields:
+    - canonical_id
+    - version
+    - status
+    - schema_type
+    - source_path
+
+  gates:
+    - name: vocabulary
+      owner: Agent-Vocabulary
+      required: true
+      command: python scripts/validate_jsonld.py
+      output: vocabulary-validation-report
+
+    - name: grammar
+      owner: Agent-Grammar
+      required: true
+      command: python scripts/validate_creativework.py --path ${ARTIFACT_PATH}
+      output: grammar-validation-report
+
+    - name: graph
+      owner: Agent-Graph
+      required: true
+      command: agent-graph validate-relationships --path ${ARTIFACT_PATH}
+      output: graph-validation-report
+
+    - name: review
+      owner: Agent-Review
+      required: true
+      command: agent-review gate --path ${ARTIFACT_PATH}
+      output: review-gate-report
+
+    - name: commit
+      owner: Agent-Commit
+      required: true
+      command: agent-commit record --path ${ARTIFACT_PATH} --canonical-id ${CANONICAL_ID} --version ${VERSION}
+      output: commit-provenance-report
+
+    - name: deploy
+      owner: Agent-deploy
+      required: true
+      command: agent-deploy publish creativework --path ${ARTIFACT_PATH} --canonical-id ${CANONICAL_ID} --version ${VERSION}
+      output: release-report
+
+  publish:
+    target_repository: Prompt-Library
+    target_status: released
+    requires_all_gates: true
+
+  rule:
+    - A CreativeWork MUST NOT be published unless all required gates pass.
+    - Prompt-Library MUST store only released prompt CreativeWorks with canonical IDs and versions.
