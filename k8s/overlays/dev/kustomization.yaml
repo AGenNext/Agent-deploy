@@ -1,0 +1,21 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+bases:
+  - ../../base
+
+patches:
+  - patch: |-
+      - op: replace
+        path: /spec/replicas
+        value: 1
+    target:
+      kind: Deployment
+      name: agent-knowledge-api
+  - patch: |-
+      - op: replace
+        path: /spec/rules/0/host
+        value: api.dev.agennext.local
+    target:
+      kind: Ingress
+      name: agent-platform-ingress

@@ -1,0 +1,35 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: agent-platform-ingress
+  namespace: agent-platform
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+spec:
+  ingressClassName: nginx
+  rules:
+    - host: api.agennext.com
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: agent-knowledge-api
+                port:
+                  number: 8001
+    - host: dashboard.agennext.com
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: agent-dashboard
+                port:
+                  number: 3000
+  tls:
+    - hosts:
+        - api.agennext.com
+        - dashboard.agennext.com
+      secretName: agent-platform-tls

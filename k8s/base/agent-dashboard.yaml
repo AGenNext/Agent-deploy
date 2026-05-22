@@ -1,0 +1,43 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: agent-dashboard
+  namespace: agent-platform
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: agent-dashboard
+  template:
+    metadata:
+      labels:
+        app: agent-dashboard
+    spec:
+      containers:
+        - name: agent-dashboard
+          image: ghcr.io/agennext/agent-dashboard:latest
+          ports:
+            - containerPort: 3000
+          env:
+            - name: VITE_API_URL
+              value: http://agent-knowledge-api:8001
+            - name: VITE_SURREALDB_URL
+              value: ws://surrealdb:8000/rpc
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 3000
+            initialDelaySeconds: 10
+            periodSeconds: 10
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: agent-dashboard
+  namespace: agent-platform
+spec:
+  selector:
+    app: agent-dashboard
+  ports:
+    - port: 3000
+      targetPort: 3000
