@@ -6,6 +6,16 @@ on:
     branches: [main]
 
 jobs:
+  governance:
+    name: Governance validation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install ripgrep
+        run: sudo apt-get update && sudo apt-get install -y ripgrep
+      - name: Run governance validation
+        run: ./scripts/validate_repo_governance.sh .
+
   validate-contracts:
     name: Validate release contracts
     runs-on: ubuntu-latest

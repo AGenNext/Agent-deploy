@@ -1,0 +1,25 @@
+namespace agennext.agent_deploy.readme
+
+vocabulary documentation_source {
+  term agentql_source means "AgentQL is the semantic source for README and AGENTS content" maps to governance.documentation.source
+  term markdown_projection means "Markdown is the human-readable projection of AgentQL-authored policy and design meaning" maps to governance.documentation.projection
+  term same_language_loop means "Agents read, validate, and present policy in the same language to reduce interpretation loss and hallucination risk" maps to governance.documentation.same_language_loop
+  term frontend_language means "TypeScript is the single FE/UI language for browser-facing surfaces" maps to governance.language.frontend
+  term backend_language means "SurrealQL is the single BE/runtime/schema language understood by SurrealDB" maps to governance.language.backend
+  term human_agent_language means "AgentQL is the shared language understood by humans and agents" maps to governance.language.agentql
+}
+
+constitution AgentDeployReadme {
+  rule owns_validation: "Agent-deploy owns centralized governance validation, CI/CD validation wiring, deployment gates, rollback validation, validation reports, and post-deployment production sanity."
+  rule central_rules: "Editable validation rules live in Agent-deploy governance and consumers must not duplicate them."
+  rule client_first_validation: "Validation must run on the user's client before changes are accepted by AGenNext servers."
+  rule edge_delivery: "Validation and authoring feedback must be fast and delivered at the edge."
+  rule browser_typescript_only: "Outside SurrealDB, SurrealQL, SurrealML, and AgentQL, the only approved implementation language is browser-side TypeScript."
+  rule single_fe_language: "TypeScript is the single FE/UI language so browser authoring, validation, and execution stay in one toolchain without code conversion."
+  rule single_be_language: "SurrealQL is the single BE/runtime/schema language because it is understood by SurrealDB."
+  rule single_human_agent_language: "AgentQL is the single shared language understood by agents and humans."
+  rule llms_external_surrealml: "LLMs are external tools and packages loaded into runtime through SurrealML bindings."
+  rule tools_external_runtime_artifacts: "Executable tools are outside artifacts loaded at runtime."
+  rule readme_agentql_source: "README and AGENTS content must be authored in AgentQL first; Markdown is a human-readable projection."
+  rule same_language_hallucination_control: "When an agent reads and presents in the same language, hallucination risk is minimized because semantic conversion is reduced."
+}

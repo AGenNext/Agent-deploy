@@ -1,0 +1,6 @@
+# scope	label	pattern
+path	JavaScript implementation files are prohibited. FE/UI code must be browser-side TypeScript; BE/runtime/schema code must be SurrealQL.	.*\.(js|jsx|mjs|cjs)$
+path	Shell scripts must not become product/runtime logic, deployment decisions, validation ownership, or policy engines.	(^|/)(scripts|tools|bin|deploy)/.*\.sh$
+path	Notebook files are prohibited as runtime, validation, policy, or design-decision sources.	.*\.ipynb$
+path_requires_agentql_manifest	Opaque executable artifacts require an AgentQL runtime-tool manifest with checksum, permissions, provenance, SurrealDB binding, and proof that the tool owns no product/runtime decisions.	.*\.(wasm|jar|class|pyc|pyo|so|dylib|dll|exe)$
+content_yaml	CI/CD YAML must not invoke Python, Node, npm, npx, bun, pip, pytest, or uv as hidden validation or business-logic engines.	(^|[[:space:]])(python|python3|node|npm|npx|bun|pip|pytest|uv)([[:space:]]|$)

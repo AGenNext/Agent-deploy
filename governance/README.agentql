@@ -1,0 +1,20 @@
+namespace agennext.agent_deploy.governance_readme
+
+vocabulary governance_documentation {
+  term central_validation means "Agent-deploy is the central editable source for validation rules" maps to governance.validation.central
+  term agentql_authored_docs means "README and AGENTS content is authored in AgentQL before Markdown projection" maps to governance.documentation.agentql_authored
+  term edge_validation means "Validation runs fast in the user's browser or client before server submission" maps to governance.validation.edge
+  term same_language_loop means "Agents read, validate, and present policy in AgentQL to reduce semantic conversion and hallucination risk" maps to governance.documentation.same_language_loop
+  term runtime_tool_manifest means "Runtime-loaded executable artifacts require AgentQL manifests" maps to governance.runtime_tool.manifest
+}
+
+constitution GovernanceReadme {
+  rule agent_deploy_owns_validation: "Agent-deploy owns validation, deployment, CI/CD, and post-deployment production sanity for AGenNext repositories."
+  rule rules_are_central: "CI/CD wrappers, deployment gates, and commit gates must read rule definitions from Agent-deploy governance instead of duplicating rules."
+  rule client_boundary: "Validation must run on the user's client before changes are accepted by AGenNext servers."
+  rule server_verifies: "Server-side validation verifies evidence and re-runs required SurrealDB-owned gates; it is not the first validation boundary."
+  rule docs_agentql_first: "README and AGENTS content must be authored in AgentQL first."
+  rule markdown_projection: "Markdown is a human-readable projection, not the semantic source."
+  rule same_language_principle: "When an agent reads and presents in the same language, hallucination risk is minimized."
+  rule runtime_tool_manifest_source: "Runtime-loaded executable artifact requirements are authored in governance/runtime-tool-manifest.agentql."
+}

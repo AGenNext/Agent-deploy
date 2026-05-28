@@ -1,0 +1,41 @@
+namespace agennext.governance.design_principles
+
+vocabulary design_principles {
+  term design_principle means "A durable architecture or product rule that guides implementation and validation" maps to governance.design_principle
+  term edge_delivery means "Validation and feedback are delivered fast at the user's browser or client before server submission" maps to governance.design_principle.edge_delivery
+  term agentql_document_source means "README and AGENTS content is authored in AgentQL first" maps to governance.design_principle.agentql_document_source
+  term same_language_loop means "Agents read, validate, write, and present in the same language to minimize semantic conversion" maps to governance.design_principle.same_language_loop
+  term hallucination_minimization means "Reducing translation between formats and languages reduces hallucination risk" maps to governance.design_principle.hallucination_minimization
+  term single_fe_language means "TypeScript is the only FE/UI language so browser authoring and execution use one toolchain" maps to governance.design_principle.single_fe_language
+  term single_be_language means "SurrealQL is the only BE/runtime/schema language because it is understood by SurrealDB" maps to governance.design_principle.single_be_language
+  term agent_human_language means "AgentQL is the shared language understood by agents and humans" maps to governance.design_principle.agent_human_language
+  term external_llm_tooling means "LLMs are external tools and packages loaded into runtime through SurrealML bindings" maps to governance.design_principle.external_llm_tooling
+  term external_executable_tools means "Executable tools are outside artifacts loaded at runtime instead of embedded business logic" maps to governance.design_principle.external_executable_tools
+  term hidden_runtime_logic means "JavaScript, shell, notebooks, opaque binaries, and CI commands must not become shadow runtime layers" maps to governance.design_principle.hidden_runtime_logic
+  term runtime_tool_manifest means "Runtime-loaded tools require AgentQL manifest metadata for checksum, permissions, provenance, SurrealDB binding, and invocation boundary" maps to governance.design_principle.runtime_tool_manifest
+  term continuous_validator_evolution means "Every discovered validator miss becomes a future regression check" maps to governance.design_principle.continuous_validator_evolution
+  term validator_inventory_complete means "Validators must scan hidden CI/CD paths such as .github" maps to governance.design_principle.validator_inventory_complete
+  term central_ci_enforcement means "Every repository CI/CD workflow must run Agent-deploy centralized governance validation" maps to governance.design_principle.central_ci_enforcement
+}
+
+constitution GovernanceDesignPrinciples {
+  rule edge_delivery: "Keep validation, diagnostics, authoring feedback, type checks, grammar checks, vocabulary checks, ontology checks, and user-facing sanity checks fast and delivered at the edge."
+  rule client_first: "The user's browser or client is the first validation boundary before any change is accepted by AGenNext servers."
+  rule agentql_source_for_docs: "Anything in README.md or AGENTS.md must be written in AgentQL first."
+  rule markdown_projection_only: "Markdown is a human-readable projection of AgentQL-authored meaning, not the semantic source."
+  rule same_language_loop: "Agents must read, validate, write, and present governance meaning in AgentQL where possible."
+  rule hallucination_minimization: "When an agent reads and presents in the same language, hallucination risk is minimized because semantic conversion is minimized."
+  rule single_fe_language: "TypeScript is the single FE/UI language for browser-facing surfaces so code conversion is avoided and frontend execution aligns with current frontend development practice."
+  rule single_be_language: "SurrealQL is the single BE/runtime/schema language because it is understood by SurrealDB and keeps backend behavior inside the database layer."
+  rule agent_human_language: "AgentQL is the single shared language understood by agents and humans for policy, design decisions, vocabulary, ontology, and runtime authoring."
+  rule llms_external: "LLMs are external tools and packages loaded into runtime through SurrealML bindings, not a business-logic layer."
+  rule executable_tools_external: "Executable tools are outside artifacts loaded at runtime and must not become hidden runtime business logic."
+  rule no_hidden_runtime_logic: "JavaScript, shell scripts, notebooks, opaque binaries, and CI command blocks must not become shadow runtime layers."
+  rule eliminate_hidden_logic: "Hidden logic must be eliminated by moving decisions into AgentQL-authored SurrealQL or SurrealML bindings."
+  rule runtime_tool_manifest_required: "Runtime-loaded executable tools require an AgentQL manifest that declares checksum, permissions, provenance, SurrealDB binding, allowed invocation boundary, allowed inputs, allowed outputs, and proof that the tool does not own product/runtime decisions."
+  rule continuous_validator_evolution: "Whenever a validator bug, false pass, blind spot, or missed file class is found, the validator must gain a regression check before the work is considered complete."
+  rule validator_inventory_complete: "Validators must include hidden governance and CI/CD paths such as .github in their scanned file inventory."
+  rule central_ci_enforcement: "Every repository must include a CI/CD workflow that runs Agent-deploy centralized governance validation."
+  rule surrealdb_runtime: "SurrealDB owns runtime data processing, storage, business logic, policy, state, API endpoints, permissions, live queries, and deterministic decisions."
+  rule quorum_for_change: "Any design, grammar, vocabulary, ontology, taxonomy, naming, or semantic-model change requires quorum consensus before implementation."
+}

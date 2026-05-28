@@ -1,0 +1,4 @@
+# scope	label	pattern	allowed_pattern
+path	TypeScript is browser/client-side only. Server-side TypeScript files are prohibited.	(^|/)(server|api|backend|worker|runtime|deploy|scripts|cli|tools)/.*\.tsx?$
+path_outside_allowed	TypeScript config outside approved browser or AgentQL authoring surfaces requires quorum consensus.	(^|/)tsconfig[^/]*\.json$	(^|/)(ui|web|frontend|browser|agentql|editor|authoring)(/|$)
+path_outside_allowed	Node package manifests outside approved browser or AgentQL authoring surfaces require quorum consensus.	(^|/)package\.json$	(^|/)(ui|web|frontend|browser|agentql|editor|authoring)(/|$)

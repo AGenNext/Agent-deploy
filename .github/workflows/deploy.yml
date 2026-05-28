@@ -13,8 +13,19 @@ on:
         required: true
 
 jobs:
+  governance:
+    name: Governance validation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install ripgrep
+        run: sudo apt-get update && sudo apt-get install -y ripgrep
+      - name: Run governance validation
+        run: ./scripts/validate_repo_governance.sh .
+
   gate:
     name: Deployment gate
+    needs: governance
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

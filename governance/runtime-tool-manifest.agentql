@@ -1,0 +1,34 @@
+namespace agennext.governance.runtime_tool_manifest
+
+vocabulary runtime_tool_manifest {
+  term runtime_tool_manifest means "AgentQL manifest required for any runtime-loaded executable artifact" maps to governance.runtime_tool.manifest
+  term checksum means "Cryptographic digest of the executable artifact" maps to governance.runtime_tool.checksum
+  term provenance means "Source, author, build, review, and approval evidence for the executable artifact" maps to governance.runtime_tool.provenance
+  term invocation_boundary means "The exact inputs, outputs, permissions, and SurrealDB binding allowed for a runtime-loaded tool" maps to governance.runtime_tool.invocation_boundary
+  term no_decision_ownership means "The tool does not own product/runtime decisions, policy, scoring, routing, approval, or state mutation" maps to governance.runtime_tool.no_decision_ownership
+}
+
+entity RuntimeToolManifest {
+  name: string required
+  artifact_path: string required
+  checksum: string required
+  checksum_algorithm: string required
+  provenance: object required
+  permissions: array required
+  surrealdb_binding: string required
+  allowed_inputs: array required
+  allowed_outputs: array required
+  invocation_boundary: string required
+  decision_ownership: bool required
+}
+
+constitution RuntimeToolManifestRules {
+  rule manifest_required: "Every runtime-loaded executable artifact must have an AgentQL runtime tool manifest."
+  rule checksum_required: "The manifest must declare artifact checksum and checksum algorithm."
+  rule provenance_required: "The manifest must declare source, author, build, review, and approval evidence."
+  rule permissions_required: "The manifest must declare the minimum permissions granted to the tool."
+  rule surrealdb_binding_required: "The manifest must declare the SurrealDB binding that governs invocation and stores results."
+  rule io_boundary_required: "The manifest must declare allowed inputs and allowed outputs."
+  rule no_business_logic_ownership: "The manifest must prove the tool does not own product/runtime decisions, policy, scoring, routing, approval, authorization, or runtime state mutation."
+  rule decision_ownership_false: "RuntimeToolManifest.decision_ownership must be false."
+}
