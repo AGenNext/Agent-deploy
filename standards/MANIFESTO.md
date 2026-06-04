@@ -9,7 +9,8 @@
 ## Our vision
 
 > **Unify — without intruding on privacy. Automate — without imposing our will.
-> All while supporting sovereignty and federation.**
+> Notify — without intruding into anyone's work-life. All while supporting
+> sovereignty and federation.**
 
 We unify the *meaning* — one canonical graph, one shared protocol — **not the
 data.** The coherence is shared; the data stays where it belongs.
@@ -30,6 +31,11 @@ And we **automate without imposing our will.** Automation *serves*; it does not
 dictate. Each participant keeps their own will and choice — we provide the tools,
 the meaning, and the governance, but **how you use them is yours.** We remove the
 *toil*, never the *agency.*
+
+And we **notify globally without intruding into anyone's work-life.** The right
+information reaches the right entity at the right time — and **not a message or a
+moment more.** Communication respects attention, boundaries, and rest: *reach
+everyone who needs it, intrude on no one.*
 
 ---
 
