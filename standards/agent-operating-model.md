@@ -125,6 +125,34 @@ Separation of duty is the law of the harness: the doer never judges itself.
 
 ---
 
+## From human-in-every-loop to the institutionalised third
+
+Once the third is built into every layer — canonical meaning, verified handoffs,
+the harness, the Research-Foundation, no self-approval — **routine
+human-in-the-loop checking is no longer required.** A human need not approve every
+step, because the **third is automated**: the verifier, not a person, closes each
+routine loop. This is what lets the system **scale** — you cannot put a human in
+a billion loops.
+
+But this is **not** "no human." The honest distinction:
+
+- **Human-in-the-loop** (approve every step) → *removed for routine actions*; the
+  institutionalised third verifies them.
+- **Human-on-the-loop** (oversight) → *retained*; humans supervise, set policy,
+  and can intervene or halt at any time (the harness stays steerable/stoppable).
+- **Human-in-command** (authority) → *retained and final*; humans grant meaning,
+  ratify changes (quorum), own exceptions, hold final authority. It is still a
+  human world; agents are still guests.
+
+> The third replaces the human **in the routine loop** — never the human's
+> **authority**. Automate the verification; keep the command.
+
+This is how governed autonomy *scales* without becoming ungoverned: routine loops
+self-verify, while humans stay **on-the-loop and in-command** for policy,
+exceptions, and ratification.
+
+---
+
 ## Operating loops (one verified step at a time)
 
 ```
