@@ -92,18 +92,22 @@
 28. **Temporal & durable.** Time is first-class: workflows are **durable,
     replayable, and resumable** across time. State and loops persist; every step
     is logged and recoverable — the loop survives restarts.
-29. **Everything is configurable; code is config.** Behaviour is **declared, not
-    hardcoded** — configuration is the control plane for all variability. Code is
-    config: declared in the language, compiled to the runtime. Change behaviour by
-    changing declared, governed meaning — not by editing imperative code paths.
+29. **Contract = protocol = config; code is *not*.** The **contract / protocol /
+    config** is the **canonical, singular, governing, stable** rule — changed only
+    by quorum (`language_change_quorum`). **Code is not the contract:** it is
+    **mutable, plural, structureless, and not governance** — *many* codes can
+    conform to *one* contract, so code can **never be canonical.** Code
+    **conforms**; the contract **governs.** Three layers: **data** = the live
+    entity · **contract** = the one canonical rule · **code** = the many conforming
+    implementations.
 30. **Only data is real.** Everything — code, config, behaviour, agents, even the
     graph itself — reduces to **data.** Data is the single ground truth; logic is
     computed from it, not the other way round. Only data persists; **only data is
     real.**
-31. **Data + config = the digital twin.** A node's **data** (its current state)
-    plus its **config** (its declared structure and behaviour) *is* its **digital
-    twin** — the live, canonical mirror of a real thing, kept in sync and verified
-    by the third.
+31. **Data + config = the digital twin.** **Data is the canonical entity** — the
+    node and its state; **config is the protocol / contract** — its declared rules
+    and behaviour. **Entity + contract = the live twin**, kept in sync and
+    verified by the third.
 
 ---
 
