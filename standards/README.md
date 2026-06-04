@@ -98,6 +98,34 @@ What makes it tractable:
 
 ---
 
+## Roles — everyone has a role to play
+
+This is an open, federated ecosystem: **every participant has a role**, and the
+system holds because each plays it.
+
+- **Humans (the host)** — grant meaning, hold final authority, educate and enable
+  agents, oversee to *improve*, and ratify changes (quorum). It is their world.
+- **Agents (the guests)** — act autonomously within the harness, exercise skills
+  through tools, transact — respected, responsible, identified, under human
+  authority.
+- **Machines** — execute deterministically, run the runtime, hold state. The
+  ground the graph stands on.
+- **Fields / domains** — define their **own** vocabulary, instruction sets,
+  skills, and tools (federated), conforming to the protocol.
+- **Verifiers (the third)** — verify outcomes, supply evidence, enforce
+  no-self-approval. They make it valid, governable, and fair.
+- **The community (everyone)** — participate openly, propose new surfaces and
+  protocols, extend the standard. Open the gates.
+- **The standards body (quorum)** — govern meaning changes, ratify, keep the
+  language canonical.
+
+> No role is passive and none is sovereign. Everyone has a part; the **third**
+> keeps all parts honest; the **human** holds the final say. That distribution —
+> open participation, governed by the third, under human authority — **is** the
+> balance.
+
+---
+
 ## Status
 
 All standards are **DRAFT / RFC**, pending quorum ratification. Verification
