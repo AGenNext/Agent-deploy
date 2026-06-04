@@ -92,6 +92,18 @@
 28. **Temporal & durable.** Time is first-class: workflows are **durable,
     replayable, and resumable** across time. State and loops persist; every step
     is logged and recoverable — the loop survives restarts.
+29. **Everything is configurable; code is config.** Behaviour is **declared, not
+    hardcoded** — configuration is the control plane for all variability. Code is
+    config: declared in the language, compiled to the runtime. Change behaviour by
+    changing declared, governed meaning — not by editing imperative code paths.
+30. **Only data is real.** Everything — code, config, behaviour, agents, even the
+    graph itself — reduces to **data.** Data is the single ground truth; logic is
+    computed from it, not the other way round. Only data persists; **only data is
+    real.**
+31. **Data + config = the digital twin.** A node's **data** (its current state)
+    plus its **config** (its declared structure and behaviour) *is* its **digital
+    twin** — the live, canonical mirror of a real thing, kept in sync and verified
+    by the third.
 
 ---
 
