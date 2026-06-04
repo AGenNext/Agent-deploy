@@ -15,6 +15,9 @@ repos.
 - **`theory-graph.md`** — *everything is a graph / a loop.* Structure and motion;
   one step at a time; every loop and graph must **resolve**; three worlds
   (human · machine · agent) meet on the graph.
+- **`theory-balance.md`** — *balance is conserved.* Ease moves burden, never
+  removes it; every increase in ease demands a matching increase in governance —
+  the loop continues, balanced at each step.
 
 ### Platform layer  ← entity · instruction · contract + protocols assemble here
 - **`agent-language.md`** — the **contract of meaning**: one word, one meaning;
@@ -95,6 +98,37 @@ What makes it tractable:
 > entity · instruction · contract is hard to start and the only path to
 > reliability. The difficulty is the **price of reliability — paid
 > incrementally**, one edge at a time.
+
+---
+
+## On "theory of everything" — it is not one theory
+
+A theory of everything is **misunderstood** as a single theory that explains
+everything. It is not — and the attempt to force one is the Babel overclaim
+(Eco's unreachable perfect language).
+
+What we have instead is a **graph of theories**, each valid in its own layer, each
+resolving its own domain, connected into a coherent whole:
+
+- **Agent theory** (entity) · **Graph theory** (structure) · **Loop theory**
+  (motion) · **Balance theory** (equilibrium) · … and the next, as the loop
+  continues.
+
+The "everything" is covered **not by one theory but by the connected set** — each
+a node, the coherence between them the edges. A theory of everything is a *system
+of theories that resolve together*, not a single equation that swallows them.
+
+> One theory claiming everything is the **Tower**. Many theories resolving
+> together is the **city.**
+
+A theory of everything, then, is **one world where everything makes sense** — and
+that world is **ours to design**, not a truth to be discovered. We build the
+coherence, layer by layer: the **human–machine interface is done**
+(*Agent-Instructions*), the **agent language** is being optimised, and the rest
+follows.
+
+> This is **OpenAutonomy's guarantee**: a coherent world where every part makes
+> sense — designed, optimised, and kept in balance, under human authority.
 
 ---
 
