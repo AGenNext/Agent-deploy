@@ -19,6 +19,49 @@ each coordinating through the graph, each kept in balance by the third. One
 operating system — and everything works on it, *well*, because it is defined,
 governed, verified, and fair.
 
+As an operating system, it **provides the full stack**:
+
+- **kernel** — the governing core: the canonical graph and the harness that
+  enforces identity, policy, and the third;
+- **runtime** — execution (the language compiled to the runtime);
+- **platform** — the platform layer (language, instructions, protocols assembled);
+- **memory** — agent state;
+- **knowledge (storage)** — persistent, sourced knowledge (the vocabulary, the
+  graph);
+- **tools** — the harnesses that realise skills into value.
+
+Everything an OS provides — **kernel, runtime, platform, memory, storage,
+tools** — for a world of humans, agents, and organisations.
+
+---
+
+## One player across every surface, device, language, and framework
+
+We are a **single, unified player** that spans:
+
+- **multi-surface** — web, app, voice, API, embedded — every human–machine touch
+  point;
+- **multi-device** — desktop, mobile, edge, IoT;
+- **all languages** — human and machine;
+- **all domains** — every industry and field (federated; each defines its own);
+- **all frameworks** — interoperating with what exists, not replacing it;
+- **…and whatever comes next** — as new surfaces emerge, new protocols emerge.
+
+The diversity lives **above**: many surfaces, devices, languages, frameworks. The
+**coherence lives underneath**: one canonical graph, one defined meaning, one set
+of governing protocols. **One meaning, many surfaces.**
+
+> We are the single player that holds the **coherence beneath the diversity.**
+
+Honest framing: *single player* via an **open standard**, not a monopoly — like
+the web is one coherent fabric across countless devices, browsers, and languages,
+owned by no one. Convergent, not captured; the third keeps it open and fair.
+
+> This is **literally a multidimensional world** — surface, device, language,
+> domain, framework, agent, human, time: each an axis. The canonical graph is the
+> **multidimensional space** that holds them all coherently, and the single player
+> is what keeps every dimension resolving to the **same meaning.**
+
 ---
 
 ## What we do
