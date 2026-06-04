@@ -126,6 +126,39 @@ system holds because each plays it.
 
 ---
 
+## The opportunity
+
+Because agents **speak human language**, this is the **easiest** major technology
+to learn and use — no new syntax to master; you speak naturally, and the agent
+resolves your meaning to the defined graph beneath.
+
+**Humans do not need to learn a new language.** The defined language works
+*underneath*, not in front of them — the complexity lives in the system, and the
+**simplicity is the human's.** Every prior technology made humans adapt to the
+machine; this one adapts to the human.
+
+And because agents carry the technical and execution burden — governed, verified,
+under human authority — humans are freed to do **what only humans do**: give
+meaning, exercise judgment, create, and decide. Agents don't replace human
+potential; they **amplify** it.
+
+But **ease cuts both ways.** The same accessibility that simplifies things for the
+individual **increases the challenge for society, governance, and the
+enterprise.** When anyone can wield autonomous agents in plain language, the
+burden of keeping them *identified, governed, verified, and accountable* grows,
+not shrinks. And because **bad actors can wield the same ease**, that
+accessibility must be **offset by higher security, governance, and compliance** —
+identity, verification, the third, no self-approval, at every surface. Simplicity at the
+surface demands **stronger governance underneath** — which is exactly what this
+stack provides. *The easier it is to use, the more the harness, the third, and the
+standards matter.*
+
+> Past evolutions made us learn the machine. This one lets the machine meet us in
+> our own language — so agents give us the chance to **realise our true
+> potential**, in a world that stays human.
+
+---
+
 ## Status
 
 All standards are **DRAFT / RFC**, pending quorum ratification. Verification
