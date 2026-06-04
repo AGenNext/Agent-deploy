@@ -45,6 +45,33 @@ trust.*
 
 ---
 
+## Three things make a transaction valid and governable
+
+Every transaction must have **three parties**, and they provide the three things
+without which a system is neither valid nor governable:
+
+1. **Identity** — the parties are *known and attributable* (who acts). No identity
+   → no accountability → **not governable.**
+2. **Contract** — a *shared, defined meaning* of the terms (what is agreed). No
+   shared meaning → the parties don't mean the same thing → **not valid.**
+3. **Verification (the third)** — a *verifier* confirms it, with **no
+   self-approval.** No third → nothing is checked → **not trustworthy.**
+
+> **Identity · Contract · Verifier.** Validity comes from identity + contract;
+> governability comes from the verifier. Remove any one and the transaction — and
+> the system built on it — fails.
+
+Two parties can *communicate*; three make a transaction **valid** (known parties,
+shared meaning) and **governable** (verified, no self-approval).
+
+> **This is what makes a system fair.** When every party is *known* (identity),
+> *means the same thing* (contract), and is *checked by a third* (verifier), **no
+> party can cheat, hide, or self-deal.** Fairness is not bolted on — it is the
+> **result** of the three. A two-party system can always be gamed by one side;
+> the third is what makes it fair.
+
+---
+
 ## Identity and value
 
 - **Every party has identity** — no anonymous transaction; every deal is
