@@ -6,6 +6,33 @@
 
 ---
 
+## Our vision
+
+> **Unify — without intruding on privacy. Automate — without imposing our will.
+> All while supporting sovereignty and federation.**
+
+We unify the *meaning* — one canonical graph, one shared protocol — **not the
+data.** The coherence is shared; the data stays where it belongs.
+
+- **Privacy** — unification is of *meaning and protocol*, not of data. What can be
+  checked locally is checked locally (at the edge), before anything is shared.
+  Nothing intrudes.
+- **Sovereignty** — every entity, domain, and organisation keeps **control of its
+  own** data, vocabulary, and decisions. Self-owned, not surrendered.
+- **Federation** — each field defines its own (vocabularies, instruction sets,
+  skills), conforming to the open standard. Distributed, not centralised.
+
+This resolves the unity-vs-autonomy tension: **unify the form, federate the
+content, preserve the sovereign, protect the private.** One coherent world —
+owned by everyone, intruding on no one.
+
+And we **automate without imposing our will.** Automation *serves*; it does not
+dictate. Each participant keeps their own will and choice — we provide the tools,
+the meaning, and the governance, but **how you use them is yours.** We remove the
+*toil*, never the *agency.*
+
+---
+
 ## The operating system where everything works
 
 > **OpenAutonomy is the operating system where everything works — every *thing*,
