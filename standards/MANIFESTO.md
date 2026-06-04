@@ -22,6 +22,33 @@ data.** The coherence is shared; the data stays where it belongs.
   own** data, vocabulary, and decisions. Self-owned, not surrendered.
 - **Federation** — each field defines its own (vocabularies, instruction sets,
   skills), conforming to the open standard. Distributed, not centralised.
+- **Governed** — unification comes **with the necessary control, governance,
+  security, and protocol** — *necessary*, not excessive: enough to keep the
+  unified world safe, fair, and trustworthy (the third at every surface), and no
+  more.
+
+> Control, governance, security, protocol — these are **what keep us in balance.**
+> As unification and ease grow, they are the counterweight that holds the system
+> at equilibrium (*Balance Theory*). Not a brake on the vision — the **balance
+> that makes the vision safe to pursue.**
+
+> **Unification and automation, on their own, are already achieved** — the world
+> has plenty of both. What is *not* yet achieved is doing them **in balance**:
+> unifying without intruding, automating without imposing, governing without
+> capturing. **That balance — not the unification or the automation — is the
+> contribution.**
+
+> And because it is **balanced**, **global scale becomes possible** — safely. An
+> ungoverned unification cannot scale (it collapses into chaos or capture); a
+> *balanced* one can. The third and the open standard scale to the planet, the way
+> the internet did. **Balance is what makes global scale safe — and therefore
+> possible.**
+
+> But the global scale achieved *so far* came **without the necessary checks and
+> without individual freedom** — centralised, surveilling, capturing. Ours is the
+> opposite: **global scale *with* the checks (the third) and *with* individual
+> freedom (sovereignty, privacy, no imposition).** Scale that keeps both — that is
+> the whole point.
 
 This resolves the unity-vs-autonomy tension: **unify the form, federate the
 content, preserve the sovereign, protect the private.** One coherent world —
