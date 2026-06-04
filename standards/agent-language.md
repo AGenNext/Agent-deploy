@@ -132,6 +132,18 @@ the engineering; the spec, vocabulary, and conformance suite make it a *standard
 > — and that rigour is precisely why it can be trusted to carry meaning, where an
 > ad-hoc convention cannot.
 
+> **Maturity (honest status):** rigorously built and validated, but **not yet
+> fully optimised.** The grammar, vocabulary, and code generation are still
+> evolving (DRAFT / RFC, refined under `language_change_quorum`). Validated and
+> principled — not yet final.
+
+> **Optimisation reduces nodes.** As the language is optimised, the *number of
+> nodes may fall* — redundant terms collapse into fewer, more fundamental ones.
+> Optimisation is **compression**: converging on the **minimal canonical set** of
+> primitives that still covers the domain (maximum meaning, minimum redundancy).
+> Fewer nodes, same coverage — the language gets *smaller and sharper*, not
+> bigger. (This is the disentanglement / minimum-redundancy prior in action.)
+
 ---
 
 ## Grounded in Schema.org (JSON-LD)
