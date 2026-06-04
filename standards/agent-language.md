@@ -293,6 +293,63 @@ the same line: **SurrealDB executes the language; it does not own its meaning.**
 
 ---
 
+## Illustrative grammar — how it is expressed
+
+*(Illustrative only — the grammar is DRAFT, evolving under `language_change_quorum`.
+This shows the **shape**, not final syntax.)*
+
+```agentql
+namespace agennext.example
+
+# vocabulary — defined terms (one word, one meaning)
+vocabulary core {
+  term agent   means "a canonical entity with identity that perceives and acts"
+  term twin    means "a node's data + config; the live mirror of a real thing"
+  term outcome means "a defined, verifiable result"
+}
+
+# config — declared, not hardcoded (code is config)
+config defaults {
+  autonomy_level  = 3
+  review_required = true
+  sla             = "5d"
+}
+
+# entity / digital twin = data + config
+entity OrderAgent : agent {
+  identity  id
+  data      state        # the live state — only data is real
+  config    defaults     # the declared behaviour
+  owns      order_processing
+}
+
+# instruction — defined, typed, outcome-bound (not a prompt)
+instruction assess_risk(order: Order) {
+  outcome  risk_score: Number    # verifiable
+  verify   by review             # the third; no self-approval
+}
+
+# protocol — protocol first; governs a surface
+protocol handoff {
+  steps  propose -> verify -> commit
+  gate   agent_deploy.validation  # the third at the surface
+}
+
+# constitution — the rules
+constitution {
+  rule one_word_one_meaning: "every term resolves to one canonical meaning"
+  rule no_self_approval:     "no agent approves its own work"
+}
+```
+
+Note how the principles become grammar: **meaning** is a `vocabulary`; **config**
+is a declared block (and `data + config` is the `entity` = the twin); an
+**instruction** is outcome-bound and verified; a **protocol** declares its steps
+and its gate; the **constitution** carries the rules. The language compiles all of
+this to the runtime (SurrealDB) — *config is data; data is real.*
+
+---
+
 ## Place in the stack
 
 ```
