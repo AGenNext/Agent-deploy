@@ -22,6 +22,25 @@ check it; the AOM wraps intelligence so an enterprise can deploy and trust it.
 
 ---
 
+## Everything is an agent — the harness governs all
+
+The operating model rests on Agent Theory: **everything is an agent.** So the
+harness governs *every participant uniformly* — humans, machines, services,
+tools, capabilities — because each is an agent with identity. One model, one set
+of controls, applied to all:
+
+- every participant has **identity** (attributable);
+- every participant has a **governed lifecycle**;
+- every participant acts **under the harness** (controllable + governable);
+- every participant sits **under human final authority.**
+
+There is no special case. A human, a machine, and an AI agent are governed by the
+**same harness** because they are the same kind of thing — agents. This is what
+makes the operating model **uniform and complete**: nothing acts outside it,
+because **everything is an agent.**
+
+---
+
 ## The two guarantees
 
 **Controllable** — every action is:
