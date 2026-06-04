@@ -11,6 +11,10 @@
 **The operating system where every agent works — governed, verified, and
 human-first.**
 
+**Our mission, in three words: Build Better World.**
+
+*Research · Product · Proactive — all converge on that one line.*
+
 We unify, automate, and govern the agent era — *without* intruding on your
 privacy, imposing our will, or taking your freedom. Open surfaces, the third in
 every loop, a world that stays human.
