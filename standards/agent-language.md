@@ -26,6 +26,31 @@ and agent alike. Everything else in this standard follows from this one theorem.
 
 ---
 
+## Language is a protocol
+
+A language is not merely a notation — it **is a protocol**: an agreed set of rules
+by which parties exchange meaning and are guaranteed to understand the same thing.
+
+- A protocol defines *how parties interact reliably* (TCP: how to exchange
+  packets; HTTP: how to exchange requests).
+- A language defines *how parties exchange meaning reliably* — which terms exist,
+  what they mean, how they combine, how meaning is resolved and agreed.
+
+So AgentQL is a **protocol for meaning.** Its grammar, validation, and resolution
+rules *are* the protocol; the canonical vocabulary is the shared state both sides
+resolve against. This is why *protocol, not taxonomy* holds — a language gives
+**generative rules of exchange**, not a fixed list — and why the Agent-Language
+and the Agent-Language-Protocol are two faces of one thing: **the language is the
+protocol; the protocol is the language in use.**
+
+> **Communication is two; transaction is three.** The protocol defines and
+> enforces **2-party communication** — a sender and a receiver resolving the same
+> canonical meaning. But a **transaction** (a binding exchange of value or action)
+> requires **three parties**: the two, plus a **verifier** (the third). *Two can
+> communicate — share meaning; only three can transact — be trusted.*
+
+---
+
 ## Canonical meaning (corollary of the theorem)
 
 > **One word, one meaning — one thing only. No ambiguity, ever.**
@@ -46,6 +71,28 @@ vocabulary, where one-term-one-meaning is enforceable.)
 Canonical meaning is what makes the theorem **enforceable**: agent and human can
 share a word's meaning only if that meaning is **single and fixed**, not supplied
 per interpreter.
+
+---
+
+## Canonical rules
+
+The core invariants of the language — the *few* rules everything else enforces:
+
+1. **One word, one meaning.** Every term has exactly one canonical meaning. No
+   ambiguity, ever.
+2. **Defined, not described.** Every term resolves to a `DefinedTerm`; undefined
+   or ill-formed input is **rejected at parse time.**
+3. **The graph must resolve.** Every reference resolves, every edge lands on a
+   node, every loop closes — no dangling meaning.
+4. **Canonical within, federated across.** One meaning per namespace; each field
+   defines its own vocabulary.
+5. **Protocol, not taxonomy.** Generative rules, not a fixed central catalogue.
+6. **Tangible only.** Define the observable and verifiable; express intangibles
+   as tangible proxies.
+7. **Meaning is change-controlled.** `language_change_quorum`, no self-approval;
+   optimisation may shrink the graph but **never** break resolution.
+
+Everything else in this standard is the elaboration of these seven.
 
 ---
 
