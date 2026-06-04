@@ -185,6 +185,48 @@ through this edge — the graph.
 > worlds possible. Worlds that share no graph cannot coordinate; worlds that
 > converge on one can.
 
+And **every surface is governed by a protocol.** Nothing crosses a boundary
+ungoverned — each surface where worlds meet has its protocol, the rules of what
+may cross and how:
+
+- the **meaning** surface → the **Agent-Language-Protocol**,
+- the **skill / tool** surface → the **Agent-Harness-Protocol**,
+- the **agent ↔ agent** surface → the **handoff protocol**,
+- the **transaction** surface → the **verifier / economy rules**.
+
+> The graph is the surface; the **protocol is its law.** An ungoverned surface is
+> a *gap* — where meaning drifts and things leak through. A governed surface is an
+> *edge that holds.*
+
+This is exactly **a device joining the internet through an IoT protocol.** A real
+device reaches the digital network only through a protocol that governs the
+surface between them. Here it is the same: a real thing joins the **canonical
+graph** — as its **digital twin** — only through the protocol that governs that
+surface. **The graph is the network; the protocol is how the real connects to
+it.**
+
+Every connection of a real thing to a network is the same shape:
+
+- **device → internet** → IoT protocol,
+- **mobile → network** → wireless protocol,
+- **real thing → canonical graph** (its twin) → the **agent protocols**
+  (language, harness, handoff).
+
+The graph is just the newest network; the agent protocols are how the real
+connects to it. **No surface without a protocol.**
+
+And **as new surfaces emerge, new protocols emerge.** The set is never fixed:
+each new boundary between worlds — a new device, a new modality, a new class of
+agent — brings a new surface, and every new surface demands a new protocol to
+govern it. The system grows not by central decree but by **pairing every emerging
+surface with a protocol that holds it.** (Protocol, not taxonomy — generative and
+open-ended.)
+
+> When the **internet** arrived, **IoT** (and wireless, and the web) arrived with
+> it — a new network spawns the protocols that connect the world to it. The
+> **agent graph is the next network**; its protocols come with it, the same way.
+> *New network → new surfaces → new protocols.* Every time.
+
 ---
 
 ## The deeper hypothesis (honestly scoped)
