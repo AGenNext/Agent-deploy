@@ -6,6 +6,21 @@
 
 ---
 
+## The operating system where everything works
+
+> **OpenAutonomy is the operating system where everything works — every *thing*,
+> every *human*, every *agent*, every *organisation* — operating together on one
+> canonical graph, under one governed model, in a human world.**
+
+Just as an OS lets programs run safely on shared hardware, this is the operating
+system that lets **humans, agents, organisations, and things** run safely on
+**shared meaning**: each an entity with identity, each governed by the harness,
+each coordinating through the graph, each kept in balance by the third. One
+operating system — and everything works on it, *well*, because it is defined,
+governed, verified, and fair.
+
+---
+
 ## What we do
 
 > **Provide the right information, with the right context, with the right intent,
