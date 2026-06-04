@@ -144,6 +144,13 @@ the engineering; the spec, vocabulary, and conformance suite make it a *standard
 > Fewer nodes, same coverage — the language gets *smaller and sharper*, not
 > bigger. (This is the disentanglement / minimum-redundancy prior in action.)
 
+> **But every node reduction must preserve resolution.** A reduction is valid
+> only if, afterwards, the **graph still resolves** — every edge still lands on a
+> node, every term still resolves to its canonical meaning, every loop still
+> closes. Optimisation may make the graph *smaller*; it may **never** make it
+> *unresolvable*. Resolution is the invariant every reduction must preserve — and
+> reductions, being meaning changes, are **quorum-gated** (`language_change_quorum`).
+
 ---
 
 ## Grounded in Schema.org (JSON-LD)
