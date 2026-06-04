@@ -43,6 +43,29 @@ the third.
 
 ---
 
+## The fourth industrial revolution (and the fifth)
+
+The evolution of value maps onto the industrial revolutions:
+
+- **1st** — steam, mechanisation.
+- **2nd** — electricity, mass production.
+- **3rd** — computers, digital automation.
+- **4th** — **cyber-physical systems:** IoT, AI, **digital twins**, autonomous
+  agents.
+- **5th** — **human-centric:** humans and agents collaborating, **people at the
+  front.**
+
+The agent operating system is the **infrastructure of the 4th industrial
+revolution** — digital twins (*data + config*), IoT / agent protocols, governed
+autonomy at scale. And because it keeps **people at the front** (a human world,
+agents as guests), it points toward the human-centric **5th** (Industry 5.0):
+not automation that replaces people, but **governed agents that amplify them.**
+
+> The 4th industrial revolution **automates.** The 5th keeps it **human.** We build
+> for both — automation in balance, people at the front.
+
+---
+
 ## Built on everything below
 
 Only **trusted** agents can transact. The economy is the *top* of the stack
