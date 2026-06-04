@@ -51,6 +51,29 @@ protocol; the protocol is the language in use.**
 
 ---
 
+## Human language at the surface, defined meaning underneath
+
+A real advantage of agents: **they speak human language.** Unlike past evolutions,
+no one must learn a new interface to participate — humans speak naturally, and the
+agent understands.
+
+But this does **not** contradict *one word, one meaning.* Natural language is the
+**interface**, not the **substrate**:
+
+- at the **surface** (human ↔ agent), the human speaks freely, in human language;
+- **underneath**, the agent *resolves* that utterance to **canonical defined
+  meaning** (via the Agent-Language-Protocol) before acting.
+
+> Human language **in** → canonical meaning **resolved** → defined action **out.**
+
+This is the best of both: **accessible** (you speak naturally) *and* **reliable**
+(grounded to the contract). The prompt asked a model to *act on* undefined
+language; the agent instead **translates** human language into defined meaning,
+then acts on the meaning. Natural language is welcomed at the edge — *precisely
+because* it is resolved to the defined graph beneath it.
+
+---
+
 ## Canonical meaning (corollary of the theorem)
 
 > **One word, one meaning — one thing only. No ambiguity, ever.**
