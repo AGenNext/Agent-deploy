@@ -27,6 +27,11 @@ place"* — open, competitive, broadly beneficial.
 
 We read that as a precise description of the gap we are building to fill.
 
+> **Microsoft Research is right about the problem — and we believe we have the
+> solution.** Their diagnosis is exact. The blueprint below is our answer to it:
+> *theoretically complete, verified in parts, with implementation and scale as the
+> open work.*
+
 ## The four Stage-3 constraints — and what we build for each
 
 | their Stage-3 blocker | what we build |
@@ -55,3 +60,10 @@ it is designed, governed, and chosen.**
 > protocols, and open incentives. That is what we build.
 >
 > *Strive for better — in a loop.*
+
+---
+
+> **Status (honest):** *theoretically solved* — a coherent, verified-in-parts
+> blueprint for the infrastructure the paper says is missing. **Implementation,
+> adoption, and scale are the open work** — the next turns of the loop. Microsoft
+> named the problem; we have the solution on paper; the build is *next.*
