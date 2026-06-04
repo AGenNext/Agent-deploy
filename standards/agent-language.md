@@ -26,6 +26,29 @@ and agent alike. Everything else in this standard follows from this one theorem.
 
 ---
 
+## Canonical meaning (corollary of the theorem)
+
+> **One word, one meaning — one thing only. No ambiguity, ever.**
+
+Every word in the language has exactly **one canonical meaning** — a single
+authoritative definition held in the vocabulary. *Canonical* means: one meaning,
+one source of truth, change-controlled. (Natural language can't do this —
+polysemy is everywhere — which is *why* we leave it for a defined, namespaced
+vocabulary, where one-term-one-meaning is enforceable.)
+
+- A word may **not** carry two meanings. If a context needs a different sense, it
+  is a **different, namespaced term** — never a redefinition.
+- **Canonical within a namespace; federated across them.** Each field may define
+  its own vocabulary, but inside any one context a word resolves to exactly one
+  meaning. (This reconciles "everyone defines their own set" with "words must
+  have canonical meaning": federation *across* namespaces, canonicality *within*.)
+
+Canonical meaning is what makes the theorem **enforceable**: agent and human can
+share a word's meaning only if that meaning is **single and fixed**, not supplied
+per interpreter.
+
+---
+
 ## Thesis
 
 > **AgentQL is the SQL of agents.**
@@ -137,6 +160,26 @@ Vocabulary · Graph · Grammar
         ↓
    Agent-Economy                  ← transacts on it
 ```
+
+---
+
+## Governance — meaning is change-controlled
+
+Meaning is the most load-bearing thing in the system, so every change to it
+passes through the distributed third (quorum) **before** it takes effect. No one
+redefines a word alone.
+
+```
+rule language_change_quorum:
+  "Any grammar, vocabulary, ontology, taxonomy, schema-language, naming,
+   semantic-model, domain-term, relation, entity-type, record-type, edge-type,
+   JSON-LD context, or meaning change requires quorum consensus before
+   implementation."
+```
+
+This is separation of duty applied to **meaning itself**: propose a change →
+quorum ratifies → it is implemented. Canonical meaning stays canonical precisely
+because no single party may move it.
 
 ---
 
