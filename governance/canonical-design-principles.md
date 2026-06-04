@@ -111,5 +111,14 @@
 
 ---
 
+> **The bet: data, not code.** While others make *code* the universal primitive
+> (code-as-everything — codegen agents, code as the interface), we **hold to
+> data.** Code is mutable, plural, structureless, ungovernable; **data is
+> canonical and real**, and the contract governs it. A code-centric world cannot
+> be made canonical or governed; a data-centric one can. That is the architectural
+> bet — and why this system can be trusted where code-as-everything drifts.
+
+---
+
 > **Define meaning. Take one verified step. Close every loop with a third. Keep
 > the balance. In a human world. Strive for better — in a loop.**
