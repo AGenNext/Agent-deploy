@@ -107,6 +107,19 @@ runtime — it does not create a separate business-logic layer.
 
 ---
 
+## Grounded in Schema.org (JSON-LD)
+
+The vocabulary is **not invented from scratch** — it is expressed in **Schema.org
+JSON-LD**: a vocabulary word is a `schema:DefinedTerm`, a collection a
+`schema:DefinedTermSet`. We build on the existing, widely-adopted web standard
+rather than reinvent it (*know what already exists; innovation is the next edge*).
+
+JSON-LD is itself a **graph** format — and that is not incidental. The vocabulary
+is nodes, the relations are edges, the whole model is a graph. See the graph
+foundation (`theory-graph.md`).
+
+---
+
 ## Separation of duty — spec ≠ engine
 
 This is the move that makes a language *global*:
