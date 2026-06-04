@@ -14,6 +14,10 @@ human-first.**
 **Our mission, in three words: Build Better World.**
 
 *Research · Product · Proactive — all converge on that one line.*
+*Everything else — tools, systems, processes — exists only to serve them.*
+
+> **This is the contract:** Mission → pillars → means. Everything conforms — one
+> canonical structure, governed and shared.
 
 We unify, automate, and govern the agent era — *without* intruding on your
 privacy, imposing our will, or taking your freedom. Open surfaces, the third in
