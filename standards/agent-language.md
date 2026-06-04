@@ -107,6 +107,33 @@ runtime — it does not create a separate business-logic layer.
 
 ---
 
+## Implementation — built on Langium
+
+The language is not only a specification; it is a **working language**, built on
+**[Langium](https://eclipse-langium.github.io/langium/)** — the open-source
+**Eclipse Foundation** TypeScript language-engineering framework (the web-era
+successor to Xtext). Langium gives AgentQL:
+
+- a **grammar** (the `.langium` definition),
+- a **parser** and a **type-safe AST**,
+- **validation rules** — meaning is enforced mechanically; the parser **rejects**
+  undefined or ill-formed input,
+- **editor tooling** (language server / LSP: completion, live errors, navigation),
+- **code generation** — compile to the runtime (SurrealDB reference target).
+
+This is what makes the standard **executable, not merely descriptive**: meaning is
+enforced by a parser and validator, so *"one word, one meaning"* and *"defined,
+not described"* are **mechanical guarantees**, not aspirations. Langium provides
+the engineering; the spec, vocabulary, and conformance suite make it a *standard*.
+
+> **Built with rigour and mechanically validated — not just any random language.**
+> A formal grammar, a parser, a typed AST, and validation rules mean every
+> construct is **checked before it runs.** AgentQL is *engineered*, not improvised
+> — and that rigour is precisely why it can be trusted to carry meaning, where an
+> ad-hoc convention cannot.
+
+---
+
 ## Grounded in Schema.org (JSON-LD)
 
 The vocabulary is **not invented from scratch** — it is expressed in **Schema.org
