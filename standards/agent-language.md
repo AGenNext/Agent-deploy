@@ -153,6 +153,25 @@ the engineering; the spec, vocabulary, and conformance suite make it a *standard
 
 ---
 
+## The language has rules
+
+A language without rules is not a language — it is free text. AgentQL is governed
+by **three kinds of rules**:
+
+- **Grammar rules (syntax)** — what is *well-formed*; enforced by the parser.
+  Ill-formed input is rejected before it runs.
+- **Semantic rules (validation)** — what is *meaningful and consistent*: one word
+  one meaning, every reference resolves, every loop and graph resolves; enforced
+  by validators.
+- **Governance rules (change)** — how the language itself may change:
+  `language_change_quorum`, no self-approval, versioning.
+
+The rules are precisely what make it a **language** and not a prompt. Free text
+has no rules — which is why it carries no guaranteed meaning. AgentQL has rules at
+every level — which is why it does.
+
+---
+
 ## Grounded in Schema.org (JSON-LD)
 
 The vocabulary is **not invented from scratch** — it is expressed in **Schema.org
