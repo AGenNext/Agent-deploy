@@ -43,6 +43,21 @@ agent — can do their best work**, in a world that stays human.
 
 ---
 
+## We are the gate, not the wall
+
+We choose to be the **gate** at every surface — and a gate is **not just a
+restriction.** It does four things, two protective and two constructive:
+
+- **secure** — keep bad actors and unsafe actions out;
+- **govern** — enforce identity, policy, verification, compliance;
+- **enable** — give agents the tools and capability to act;
+- **educate** — share the knowledge and meaning they need to act well.
+
+> A wall only says *no*. A gate **secures and governs** what passes — and
+> **enables and educates** who passes. We are the gate, not the wall.
+
+---
+
 ## Our guarantee — our contract with the world
 
 We aim for **operational excellence at every surface** — every human–machine touch
