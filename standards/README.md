@@ -7,6 +7,42 @@ repos.
 
 ---
 
+## Complete index — everything, one place
+
+**Narrative & mission**
+- [`MANIFESTO.md`](./MANIFESTO.md) · [`FOUNDERS-LETTER.md`](./FOUNDERS-LETTER.md) ·
+  [`KEYNOTE.md`](./KEYNOTE.md) · [`MISSION.md`](./MISSION.md) · [`ZEN.md`](./ZEN.md)
+
+**Theory** — [`agent-theory`](./agent-theory.md) · [`theory-graph`](./theory-graph.md) ·
+[`theory-balance`](./theory-balance.md)
+
+**Standards (RFC)** — [`agent-language`](./agent-language.md)
+(+[`-protocol`](./agent-language-protocol.md)) ·
+[`agent-instructions`](./agent-instructions.md) ·
+[`agent-harness-protocol`](./agent-harness-protocol.md) ·
+[`agent-operating-model`](./agent-operating-model.md) ·
+[`agent-research-foundation`](./agent-research-foundation.md) ·
+[`agent-economy`](./agent-economy.md)
+
+**Governance** (`../governance/`) — canonical-design-principles ·
+foundation-principle · glossary · repo-boundaries · repo-standardization-protocol ·
+agent-development-protocol · agent-coding-protocol · agent-community-guidelines ·
+community-contribution-model · agent-landscape-maturity
+
+**Blog** (`./blog/`) — what-is-now · where-the-world-will-go · what-we-will-do ·
+data-not-code
+
+**Site** (`./site/`) — landing · research
+
+**Verification** (`../experiments/`) — three-ball active reasoning · IIT proxy
+divergence · `gate-map.md` · `../report.md`
+
+> Everything lives in **`agent-deploy`** (this repo), PR #2. Per governance, each
+> piece's *intended home* is its own repo (Agent-Constitution, Agent-Platform,
+> Agent-Theories, Agent-Economy, …); relocation happens at ratification.
+
+---
+
 ## Manifesto
 
 See [`MANIFESTO.md`](./MANIFESTO.md) for the full declaration.
