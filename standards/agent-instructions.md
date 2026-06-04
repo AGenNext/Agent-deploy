@@ -20,6 +20,20 @@ is impossible on prompts and native to instructions.
 > replaced. The standard defines **instructions only** — a thing without defined
 > meaning cannot itself be defined; it can only be superseded.
 
+## Entity · Instruction · Contract — the prompt is obsolete
+
+Give an **entity** (an agent with identity) an **instruction** (a defined
+command) under a **contract** (shared canonical meaning), and the **prompt is no
+longer needed.** These three carry everything a prompt tried to:
+
+- **Entity** — *who* acts (identity, from Agent Theory),
+- **Instruction** — *what* to do (a defined command, this standard),
+- **Contract** — the *meaning* both agree on (Agent-Language).
+
+Who, what, and the shared meaning — nothing is left for free text to carry.
+
+---
+
 ## Purpose
 
 An instruction to an agent is a **contract, not a prompt.** It is validated
