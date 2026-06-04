@@ -78,6 +78,20 @@
     implementation.** The protocol governs the surface; implementations conform to
     it. Contract-first, not code-first — meaning and boundaries are fixed before
     anything is built on them.
+25. **Microservices, meshed.** Composed of small, independent **microservices**,
+    each with one boundary (separation of duty), communicating through a **service
+    mesh** — the infrastructure that governs every service-to-service surface
+    (identity / mTLS, policy, observability, the third at each hop). The mesh is
+    the **gate at the network layer.**
+26. **Infrastructure agnostic.** Runs on **any infrastructure** — any cloud,
+    on-prem, edge, or hybrid — with **no provider lock-in.** The standard and the
+    runtime are portable; infrastructure is a choice, never a cage.
+27. **Multi-model.** Model-agnostic — works with **any AI model**, swappable, with
+    no lock-in to one vendor or model. Models are runtime-loaded artifacts behind
+    the interface; pick the right model for the task.
+28. **Temporal & durable.** Time is first-class: workflows are **durable,
+    replayable, and resumable** across time. State and loops persist; every step
+    is logged and recoverable — the loop survives restarts.
 
 ---
 
