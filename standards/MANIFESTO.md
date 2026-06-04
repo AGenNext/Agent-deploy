@@ -231,3 +231,16 @@ build → deploy → test → review → analyse → gather feedback → build �
 Each turn must **resolve** — closed by review and verification (the third),
 measured against outcomes, then fed back into the next build. A better world is
 built not in one leap but **one verified turn at a time.**
+
+> This is **the human evolution loop** — the same process by which we have always
+> progressed: *try, do, see, reflect, learn, try again.* From a single build to
+> all of civilisation, it is one loop. Each turn, humanity keeps a little more of
+> the good and sheds a little more of the bad. Building a better world is
+> **humanity's oldest loop — we are just giving it a faster, governed, verified
+> turn.**
+
+---
+
+> # Strive for better — in a loop.
+>
+> *Always.*
