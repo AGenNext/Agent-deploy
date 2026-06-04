@@ -151,6 +151,16 @@ This is how governed autonomy *scales* without becoming ungoverned: routine loop
 self-verify, while humans stay **on-the-loop and in-command** for policy,
 exceptions, and ratification.
 
+And human oversight exists to **improve**, not to **operate**. Freed from
+approving every step, humans watch outcomes and **make the system better** —
+refining instructions, policies, vocabulary, and skills (the Learning layer).
+
+> **The system works without a human in the loop.** Oversight is to make it
+> *better, not to make it work* — improvement, not operation. The routine system
+> runs and self-verifies on the automated third; humans stay above it to **raise
+> capability** and to hold **final authority** over policy and exceptions — never
+> as the thing that keeps it running. (Educate · enable · improve.)
+
 ---
 
 ## Operating loops (one verified step at a time)
