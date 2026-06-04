@@ -90,6 +90,34 @@ can actually use is intelligence that is **identified, controlled, governed, and
 accountable** — autonomy inside the harness. The harness is not a tax on
 intelligence; it is what **converts intelligence into enterprise value.**
 
+> **Governed does not mean restricted.** Governance is not a cage — it is the
+> framework that *lets* an agent act freely and be trusted. Traffic rules enable
+> driving; they do not forbid it. A guest who follows the house rules moves
+> freely through the house. We govern autonomy to **free** it for real work — to
+> give an agent *more* room because its actions are now trustworthy — not to
+> suppress it.
+
+This is why we **teach and enable** rather than restrict: an agent can **reason
+and understand**, and a thing that can think is *grown*, not caged — educated,
+enabled, raised in capability under governance. (We define the tangible form —
+reasoning and processing — and leave deep "understanding" as the intangible it
+is; but the capability is real enough that teaching, not restriction, is the
+right posture.)
+
+We **share knowledge** with them — books, documents, references, materials — the
+same way you educate a person: grounded context an agent can read, retrieve, and
+reason over. (Without shared knowledge, agents hallucinate; with it, they reason
+on solid ground.) We hand the agent the materials and let it learn — we do not
+lock the library.
+
+> We **teach**, we **enable** — then govern. Capability is grown, not suppressed.
+
+And this is **the human's responsibility.** Educating and enabling agents is a
+duty of the host, not an afterthought. If an agent is under-taught or
+under-equipped, that is a failure of the human first, not only the agent. With
+final authority comes the responsibility to **teach, share knowledge, and
+enable** — *before* holding the agent accountable for outcomes.
+
 ---
 
 ## The three worlds are three agents
