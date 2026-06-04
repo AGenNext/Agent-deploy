@@ -72,6 +72,32 @@ Open to participate; governed to stay honest — open + the third = balance.
 
 ---
 
+## On practice — yes, it is hard
+
+Defining entity · instruction · contract for everything is **difficult to
+practise.** It demands real work — identity for every entity, a defined contract
+for every instruction, canonical meaning for every word — and it forbids the easy
+free-text shortcut. That difficulty is honest, not hidden.
+
+What makes it tractable:
+
+- **Incremental, not upfront.** Do not define everything first. Define the
+  **next** term and the **next** instruction as you need them — now → next. (You
+  do not write every CLI command before using the shell.)
+- **Federated.** Each field defines its own vocabulary and instruction set, so
+  the work is distributed, not centralised.
+- **Tooled.** The language (AgentQL), conformance checks, and programmatic tuning
+  do the heavy lifting hand-crafting cannot.
+- **"Enough," not "perfect."** Aim for enough defined meaning to **verify** — not
+  a complete taxonomy of everything (Eco's unreachable perfect language).
+
+> Prompts are easy to start and impossible to make reliable. Defined
+> entity · instruction · contract is hard to start and the only path to
+> reliability. The difficulty is the **price of reliability — paid
+> incrementally**, one edge at a time.
+
+---
+
 ## Status
 
 All standards are **DRAFT / RFC**, pending quorum ratification. Verification
