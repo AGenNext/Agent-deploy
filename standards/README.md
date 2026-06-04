@@ -7,6 +7,35 @@ repos.
 
 ---
 
+## Manifesto
+
+See [`MANIFESTO.md`](./MANIFESTO.md) for the full declaration.
+
+> **Unify, optimise, automate, align, define, implement, reduce cost, and
+> communicate — at every human–machine touch point (every surface) — to provide a
+> secure, governed, and fair environment where everyone can do their best work.**
+
+Every standard in this stack serves that one mission:
+
+- **unify** — one canonical graph, one defined language, where all worlds converge;
+- **define** — one word, one meaning; the prompt replaced by the instruction;
+- **align** — DEFINE → ALIGN → APPROVE → EXECUTE; no step without agreement;
+- **automate** — routine loops self-verify; the system works without HITL;
+- **optimise** — fewer nodes, sharper meaning; programmatic tuning, not prompt
+  fiddling;
+- **implement** — the language compiles to the runtime (concept → real);
+- **secure & govern** — every surface governed by a protocol; the third in every
+  loop; identity, verification, no self-approval;
+- **fair** — three parties to every transaction; no one can cheat, hide, or
+  self-deal;
+- **reduce cost & communicate** — agents speak human language; less doing, more
+  verifying; balance kept as the loop continues.
+
+All of it at **every human–machine surface**, so that **everyone — human and
+agent — can do their best work**, in a world that stays human.
+
+---
+
 ## The stack (bottom → top)
 
 ### Foundations (theory)
