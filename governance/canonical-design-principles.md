@@ -65,9 +65,19 @@
 21. **Open surface.** Every surface is open — open protocols and standards at
     every touch point — so anyone, human or agent, can connect and build. Not an
     open *core* with a closed edge, but **open surfaces all the way out.**
-22. **Cloud native.** Built on cloud-native foundations — containerised,
-    orchestrated, composable, portable, scalable (CNCF-aligned; MicroK8s / k8s).
-    Run anywhere, scale safely, no lock-in.
+22. **Cloud native & distributed.** Built on cloud-native, **distributed**
+    foundations — containerised, orchestrated, composable, portable, scalable,
+    with **no central chokepoint** (CNCF-aligned; MicroK8s / k8s). The third is
+    distributed; run anywhere, scale safely, no lock-in, no single point of
+    capture.
+23. **Built from primitives.** The system composes from a **minimal set of
+    well-defined primitives** — identity, resource, action, event, state,
+    constraint, and the like — each canonical, each composable. Everything builds
+    up from primitives; nothing is monolithic.
+24. **Protocol first.** Define the **protocol / contract before the
+    implementation.** The protocol governs the surface; implementations conform to
+    it. Contract-first, not code-first — meaning and boundaries are fixed before
+    anything is built on them.
 
 ---
 
