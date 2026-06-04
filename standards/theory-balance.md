@@ -12,6 +12,11 @@ When one part of a system gets easier, the burden does not vanish; it **shifts**
 to another part. The total is conserved. As the world moves on — evolution after
 evolution — balance is kept by **redistributing** effort, not eliminating it.
 
+> **And balance keeps moving.** It is not a fixed point but a **dynamic
+> equilibrium** — the balance point shifts as the world evolves, so balance must
+> be *continuously re-found*, not set once. A balance held still becomes imbalance
+> as the world moves; only a **moving balance stays balanced.**
+
 ---
 
 ## In the agent era
