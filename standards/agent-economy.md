@@ -17,6 +17,32 @@ trust* — repeated a billion times.
 
 ---
 
+## A new evolution, a new economic model
+
+At every major evolution, a **new economic model** has emerged:
+
+- **agriculture** → the land / harvest economy,
+- **industry** → the manufacturing / capital economy,
+- **computers** → the software / information economy,
+- **the internet** → the digital / platform economy,
+- **e-commerce** → the online marketplace / retail economy,
+- **cloud** → the on-demand / subscription (SaaS) economy,
+- **agents** → the **agent economy.**
+
+Each evolution created a new way value is made and exchanged — and **agents will
+be no exception.**
+
+Each new network and surface brought not just new protocols but a new **way value
+is created and exchanged.** The agent era is no different: governed, autonomous
+agents transacting through verified handoffs is a **new economic model** — value
+produced and exchanged by a digital workforce, under human authority, closed by
+the third.
+
+> New evolution → new surfaces → new protocols → **new economic model.** The
+> Agent-Economy is that model for the agent era.
+
+---
+
 ## Built on everything below
 
 Only **trusted** agents can transact. The economy is the *top* of the stack
