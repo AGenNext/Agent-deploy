@@ -199,3 +199,35 @@ A coherent world where every part makes sense — **designed, optimised, and kep
 balance, under human authority.** Open to participate; governed to stay honest.
 
 > **This is our contract with the world — OpenAutonomy's guarantee.**
+
+---
+
+## Our final vision — To Build A Better World
+
+> **To Build A Better World.**
+
+And **"better" means more of everything that is already good — and less of
+everything that is not** — in the current world. Not a new world that replaces
+this one, not a utopia reinvented from scratch. We **keep the good and grow it,
+and shrink what no one values**: more meaning, more trust, more fairness, more
+freedom — and **less toil, less waste, less harm.**
+
+Better is the **next edge on the graph we already have** — the existing good,
+amplified. Agents do not replace the world; they give us **more of its good, with
+less of its toil.** That is the world we are building.
+
+And **building is a process — a loop**, not a destination. A better world is not
+*achieved* and finished; it is **built, turn after turn**: each loop adds a little
+more good, removes a little more of the bad, re-finds the balance, and continues.
+The work is never done — and that is not a flaw, it is the **shape of building.**
+We keep the loop turning, and the world keeps getting better.
+
+The build loop is concrete:
+
+```
+build → deploy → test → review → analyse → gather feedback → build → …
+```
+
+Each turn must **resolve** — closed by review and verification (the third),
+measured against outcomes, then fed back into the next build. A better world is
+built not in one leap but **one verified turn at a time.**
