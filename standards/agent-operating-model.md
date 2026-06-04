@@ -41,6 +41,24 @@ because **everything is an agent.**
 
 ---
 
+## Every agent needs a harness
+
+No agent operates without a harness. An unharnessed agent is **ungoverned
+autonomy** — unattributable, unsteerable, unaccountable. It cannot be trusted, so
+it cannot be deployed. The harness is therefore **not optional**; it is the
+precondition for an agent to exist in a human world:
+
+- **without** a harness → autonomy runs free → unsafe and unusable;
+- **with** a harness → autonomy is controllable and governable → trustworthy.
+
+> **An agent is only an agent *inside* a harness.** Outside it, it is just
+> ungoverned software with a decision no one can trust it to make.
+
+Every agent — human, machine, or AI — runs inside the harness. There is no
+unharnessed participant.
+
+---
+
 ## The two guarantees
 
 **Controllable** — every action is:
