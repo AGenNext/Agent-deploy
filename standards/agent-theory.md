@@ -52,6 +52,46 @@ attributable.* Without identity there is no accountability, no trust, no agent.)
 
 ---
 
+## What an agent can do
+
+> **An agent can do everything software can do — autonomously.**
+
+Software executes predefined steps. An agent does the *same things* — call APIs,
+read and write data, run workflows, use tools — but **autonomously**: it reasons,
+decides the next step, and acts without step-by-step human direction.
+
+That autonomy is exactly **why the harness exists.** Software is bounded by its
+code; an agent is bounded by **governance.** The more autonomous the entity, the
+more it needs:
+
+- **identity** — so its autonomous actions are attributable;
+- **control** — steerable, stoppable, reversible (autonomy you can halt);
+- **governance** — policy, approval, audit (autonomy within bounds);
+- **a next step that resolves** — autonomy that does not hang or run away;
+- **human final authority** — autonomy as a *guest*, not a sovereign.
+
+> Autonomy is the **power**; the harness is what makes it **safe.**
+
+An agent is software that decides for itself — which is precisely why it must be
+controllable, governable, identified, and a guest in a human world.
+
+Agents can also **combine** — composing with other agents through **governed
+handoffs** (the canonical instruction pipes). Composed autonomy is more powerful,
+and therefore needs *more* governance, not less.
+
+> **Autonomy must be governed.** Non-negotiable. Ungoverned autonomy is the
+> danger; *governed* autonomy is the value. The agent's freedom to act is always
+> matched by the harness's authority to bound it.
+
+**For enterprises, only *governed autonomy* is useful — intelligence alone is
+not.** A model that is brilliant but uncontrollable cannot be deployed in a
+business: you cannot trust it with money, data, or decisions. What an enterprise
+can actually use is intelligence that is **identified, controlled, governed, and
+accountable** — autonomy inside the harness. The harness is not a tax on
+intelligence; it is what **converts intelligence into enterprise value.**
+
+---
+
 ## The three worlds are three agents
 
 Human · machine · agent — all are **agents**, each with its own identity, meeting
