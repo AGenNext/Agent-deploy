@@ -6,6 +6,20 @@
 
 ---
 
+## What we do
+
+> **Provide the right information, with the right context, with the right intent,
+> at the right time, to the right entity — and ensure that entity has the best
+> tools, skills, and knowledge to perform at its best, within the known
+> constraints.**
+
+Every *"right"* is a **node resolved on the graph**; every match is **verified by
+the third**; every constraint is a **governed boundary.** This is operational
+excellence made concrete — the right things, to the right entity, at the right
+time, equipped to do its best.
+
+---
+
 ## What we believe
 
 1. **The prompt is over; the instruction is the future.** Reliable AI replaces
