@@ -1,0 +1,3 @@
+[build]
+  publish = "standards/site/public"
+  command = ""
